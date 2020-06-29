@@ -1,33 +1,74 @@
-.App {
-  text-align: center;
+*,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+  background-color: #191414;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+div,
+button {
+  margin: 16px;
+}
+
+.songWrapper {
+  border: solid 1px #7f7f7f;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+img {
+  border-radius: 4px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+h2,
+h4,
+p {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+h4:first-of-type {
+  color: #7f7f7f;
 }
 
-.App-intro {
-  font-size: large;
+a {
+  color: #1db954;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+button:first-child {
+  background-color: #191414;
+  border-radius: 28px;
+  border: 1px solid #7f7f7f;
+  display: inline-block;
+  cursor: pointer;
+  color: #7f7f7f;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
 }
 
-
-div, button {
-  margin: 10px;
+button {
+  background-color: #1db954;
+  border-radius: 28px;
+  border: 1px solid white;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
 }
