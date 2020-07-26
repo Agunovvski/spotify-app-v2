@@ -58,7 +58,7 @@ class Featured extends Component {
                 <button onClick={() => this.getFeatured()}>Show me Featured Playlists</button>
                 <a href={this.state.theList.playlistLink}>
                     <h4>{this.state.theList.playlistName}</h4>
-                    <img src={this.state.theList.playlistImg} alt={this.state.theList.playlistName}></img>
+                    <img src={this.state.theList.playlistImg} alt={this.state.theList.playlistName} className='featuredImage'></img>
                 </a>
                 {/* {this.state.theList.playListName.map(obj => (
                     <p>{obj.playlists.name}</p>

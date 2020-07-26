@@ -60,6 +60,10 @@ button:first-child {
   text-decoration: none;
 }
 
+button:first-child:hover {
+  background-color: #1db954;
+}
+
 button {
   background-color: #1db954;
   border-radius: 28px;
@@ -71,4 +75,22 @@ button {
   font-size: 17px;
   padding: 16px 31px;
   text-decoration: none;
+  transform: scale(1);
+  transition: transform 0.2s ease-out;
+}
+
+button:hover {
+  background-color: #191414;
+  transform: scale(1.05);
+}
+
+.featuredImage {
+  height: 100%;
+  width: 250px;
+  transform: scale(1);
+  transition: transform 0.2s ease-out;
+}
+
+.featuredImage:hover {
+  transform: scale(1.05);
 }
